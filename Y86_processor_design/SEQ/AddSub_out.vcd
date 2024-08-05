@@ -1,0 +1,1974 @@
+$date
+	Sun Jan 28 23:49:24 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module AdderSubtractor_tb $end
+$var wire 1 ! overflow $end
+$var wire 64 " out [63:0] $end
+$var reg 1 # M $end
+$var reg 64 $ in1 [63:0] $end
+$var reg 64 % in2 [63:0] $end
+$scope module uut $end
+$var wire 1 # M $end
+$var wire 64 & in1 [63:0] $end
+$var wire 64 ' in2 [63:0] $end
+$var wire 1 ! overflow $end
+$var wire 64 ( out [63:0] $end
+$var wire 64 ) inp2 [63:0] $end
+$var wire 64 * inp1 [63:0] $end
+$var wire 64 + carry [63:0] $end
+$scope begin generate_Add_Sub[0] $end
+$scope begin genblk3 $end
+$scope module FA $end
+$var wire 1 , a $end
+$var wire 1 - b $end
+$var wire 1 # cin $end
+$var wire 1 . cout $end
+$var wire 1 / s $end
+$var wire 1 0 y1 $end
+$var wire 1 1 y2 $end
+$var wire 1 2 y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[1] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 3 a $end
+$var wire 1 4 b $end
+$var wire 1 5 cin $end
+$var wire 1 6 cout $end
+$var wire 1 7 s $end
+$var wire 1 8 y1 $end
+$var wire 1 9 y2 $end
+$var wire 1 : y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[2] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 ; a $end
+$var wire 1 < b $end
+$var wire 1 = cin $end
+$var wire 1 > cout $end
+$var wire 1 ? s $end
+$var wire 1 @ y1 $end
+$var wire 1 A y2 $end
+$var wire 1 B y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[3] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 C a $end
+$var wire 1 D b $end
+$var wire 1 E cin $end
+$var wire 1 F cout $end
+$var wire 1 G s $end
+$var wire 1 H y1 $end
+$var wire 1 I y2 $end
+$var wire 1 J y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[4] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 K a $end
+$var wire 1 L b $end
+$var wire 1 M cin $end
+$var wire 1 N cout $end
+$var wire 1 O s $end
+$var wire 1 P y1 $end
+$var wire 1 Q y2 $end
+$var wire 1 R y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[5] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 S a $end
+$var wire 1 T b $end
+$var wire 1 U cin $end
+$var wire 1 V cout $end
+$var wire 1 W s $end
+$var wire 1 X y1 $end
+$var wire 1 Y y2 $end
+$var wire 1 Z y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[6] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 [ a $end
+$var wire 1 \ b $end
+$var wire 1 ] cin $end
+$var wire 1 ^ cout $end
+$var wire 1 _ s $end
+$var wire 1 ` y1 $end
+$var wire 1 a y2 $end
+$var wire 1 b y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[7] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 c a $end
+$var wire 1 d b $end
+$var wire 1 e cin $end
+$var wire 1 f cout $end
+$var wire 1 g s $end
+$var wire 1 h y1 $end
+$var wire 1 i y2 $end
+$var wire 1 j y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[8] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 k a $end
+$var wire 1 l b $end
+$var wire 1 m cin $end
+$var wire 1 n cout $end
+$var wire 1 o s $end
+$var wire 1 p y1 $end
+$var wire 1 q y2 $end
+$var wire 1 r y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[9] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 s a $end
+$var wire 1 t b $end
+$var wire 1 u cin $end
+$var wire 1 v cout $end
+$var wire 1 w s $end
+$var wire 1 x y1 $end
+$var wire 1 y y2 $end
+$var wire 1 z y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[10] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 { a $end
+$var wire 1 | b $end
+$var wire 1 } cin $end
+$var wire 1 ~ cout $end
+$var wire 1 !" s $end
+$var wire 1 "" y1 $end
+$var wire 1 #" y2 $end
+$var wire 1 $" y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[11] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 %" a $end
+$var wire 1 &" b $end
+$var wire 1 '" cin $end
+$var wire 1 (" cout $end
+$var wire 1 )" s $end
+$var wire 1 *" y1 $end
+$var wire 1 +" y2 $end
+$var wire 1 ," y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[12] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 -" a $end
+$var wire 1 ." b $end
+$var wire 1 /" cin $end
+$var wire 1 0" cout $end
+$var wire 1 1" s $end
+$var wire 1 2" y1 $end
+$var wire 1 3" y2 $end
+$var wire 1 4" y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[13] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 5" a $end
+$var wire 1 6" b $end
+$var wire 1 7" cin $end
+$var wire 1 8" cout $end
+$var wire 1 9" s $end
+$var wire 1 :" y1 $end
+$var wire 1 ;" y2 $end
+$var wire 1 <" y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[14] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 =" a $end
+$var wire 1 >" b $end
+$var wire 1 ?" cin $end
+$var wire 1 @" cout $end
+$var wire 1 A" s $end
+$var wire 1 B" y1 $end
+$var wire 1 C" y2 $end
+$var wire 1 D" y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[15] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 E" a $end
+$var wire 1 F" b $end
+$var wire 1 G" cin $end
+$var wire 1 H" cout $end
+$var wire 1 I" s $end
+$var wire 1 J" y1 $end
+$var wire 1 K" y2 $end
+$var wire 1 L" y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[16] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 M" a $end
+$var wire 1 N" b $end
+$var wire 1 O" cin $end
+$var wire 1 P" cout $end
+$var wire 1 Q" s $end
+$var wire 1 R" y1 $end
+$var wire 1 S" y2 $end
+$var wire 1 T" y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[17] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 U" a $end
+$var wire 1 V" b $end
+$var wire 1 W" cin $end
+$var wire 1 X" cout $end
+$var wire 1 Y" s $end
+$var wire 1 Z" y1 $end
+$var wire 1 [" y2 $end
+$var wire 1 \" y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[18] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 ]" a $end
+$var wire 1 ^" b $end
+$var wire 1 _" cin $end
+$var wire 1 `" cout $end
+$var wire 1 a" s $end
+$var wire 1 b" y1 $end
+$var wire 1 c" y2 $end
+$var wire 1 d" y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[19] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 e" a $end
+$var wire 1 f" b $end
+$var wire 1 g" cin $end
+$var wire 1 h" cout $end
+$var wire 1 i" s $end
+$var wire 1 j" y1 $end
+$var wire 1 k" y2 $end
+$var wire 1 l" y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[20] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 m" a $end
+$var wire 1 n" b $end
+$var wire 1 o" cin $end
+$var wire 1 p" cout $end
+$var wire 1 q" s $end
+$var wire 1 r" y1 $end
+$var wire 1 s" y2 $end
+$var wire 1 t" y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[21] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 u" a $end
+$var wire 1 v" b $end
+$var wire 1 w" cin $end
+$var wire 1 x" cout $end
+$var wire 1 y" s $end
+$var wire 1 z" y1 $end
+$var wire 1 {" y2 $end
+$var wire 1 |" y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[22] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 }" a $end
+$var wire 1 ~" b $end
+$var wire 1 !# cin $end
+$var wire 1 "# cout $end
+$var wire 1 ## s $end
+$var wire 1 $# y1 $end
+$var wire 1 %# y2 $end
+$var wire 1 &# y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[23] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 '# a $end
+$var wire 1 (# b $end
+$var wire 1 )# cin $end
+$var wire 1 *# cout $end
+$var wire 1 +# s $end
+$var wire 1 ,# y1 $end
+$var wire 1 -# y2 $end
+$var wire 1 .# y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[24] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 /# a $end
+$var wire 1 0# b $end
+$var wire 1 1# cin $end
+$var wire 1 2# cout $end
+$var wire 1 3# s $end
+$var wire 1 4# y1 $end
+$var wire 1 5# y2 $end
+$var wire 1 6# y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[25] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 7# a $end
+$var wire 1 8# b $end
+$var wire 1 9# cin $end
+$var wire 1 :# cout $end
+$var wire 1 ;# s $end
+$var wire 1 <# y1 $end
+$var wire 1 =# y2 $end
+$var wire 1 ># y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[26] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 ?# a $end
+$var wire 1 @# b $end
+$var wire 1 A# cin $end
+$var wire 1 B# cout $end
+$var wire 1 C# s $end
+$var wire 1 D# y1 $end
+$var wire 1 E# y2 $end
+$var wire 1 F# y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[27] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 G# a $end
+$var wire 1 H# b $end
+$var wire 1 I# cin $end
+$var wire 1 J# cout $end
+$var wire 1 K# s $end
+$var wire 1 L# y1 $end
+$var wire 1 M# y2 $end
+$var wire 1 N# y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[28] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 O# a $end
+$var wire 1 P# b $end
+$var wire 1 Q# cin $end
+$var wire 1 R# cout $end
+$var wire 1 S# s $end
+$var wire 1 T# y1 $end
+$var wire 1 U# y2 $end
+$var wire 1 V# y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[29] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 W# a $end
+$var wire 1 X# b $end
+$var wire 1 Y# cin $end
+$var wire 1 Z# cout $end
+$var wire 1 [# s $end
+$var wire 1 \# y1 $end
+$var wire 1 ]# y2 $end
+$var wire 1 ^# y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[30] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 _# a $end
+$var wire 1 `# b $end
+$var wire 1 a# cin $end
+$var wire 1 b# cout $end
+$var wire 1 c# s $end
+$var wire 1 d# y1 $end
+$var wire 1 e# y2 $end
+$var wire 1 f# y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[31] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 g# a $end
+$var wire 1 h# b $end
+$var wire 1 i# cin $end
+$var wire 1 j# cout $end
+$var wire 1 k# s $end
+$var wire 1 l# y1 $end
+$var wire 1 m# y2 $end
+$var wire 1 n# y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[32] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 o# a $end
+$var wire 1 p# b $end
+$var wire 1 q# cin $end
+$var wire 1 r# cout $end
+$var wire 1 s# s $end
+$var wire 1 t# y1 $end
+$var wire 1 u# y2 $end
+$var wire 1 v# y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[33] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 w# a $end
+$var wire 1 x# b $end
+$var wire 1 y# cin $end
+$var wire 1 z# cout $end
+$var wire 1 {# s $end
+$var wire 1 |# y1 $end
+$var wire 1 }# y2 $end
+$var wire 1 ~# y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[34] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 !$ a $end
+$var wire 1 "$ b $end
+$var wire 1 #$ cin $end
+$var wire 1 $$ cout $end
+$var wire 1 %$ s $end
+$var wire 1 &$ y1 $end
+$var wire 1 '$ y2 $end
+$var wire 1 ($ y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[35] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 )$ a $end
+$var wire 1 *$ b $end
+$var wire 1 +$ cin $end
+$var wire 1 ,$ cout $end
+$var wire 1 -$ s $end
+$var wire 1 .$ y1 $end
+$var wire 1 /$ y2 $end
+$var wire 1 0$ y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[36] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 1$ a $end
+$var wire 1 2$ b $end
+$var wire 1 3$ cin $end
+$var wire 1 4$ cout $end
+$var wire 1 5$ s $end
+$var wire 1 6$ y1 $end
+$var wire 1 7$ y2 $end
+$var wire 1 8$ y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[37] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 9$ a $end
+$var wire 1 :$ b $end
+$var wire 1 ;$ cin $end
+$var wire 1 <$ cout $end
+$var wire 1 =$ s $end
+$var wire 1 >$ y1 $end
+$var wire 1 ?$ y2 $end
+$var wire 1 @$ y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[38] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 A$ a $end
+$var wire 1 B$ b $end
+$var wire 1 C$ cin $end
+$var wire 1 D$ cout $end
+$var wire 1 E$ s $end
+$var wire 1 F$ y1 $end
+$var wire 1 G$ y2 $end
+$var wire 1 H$ y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[39] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 I$ a $end
+$var wire 1 J$ b $end
+$var wire 1 K$ cin $end
+$var wire 1 L$ cout $end
+$var wire 1 M$ s $end
+$var wire 1 N$ y1 $end
+$var wire 1 O$ y2 $end
+$var wire 1 P$ y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[40] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 Q$ a $end
+$var wire 1 R$ b $end
+$var wire 1 S$ cin $end
+$var wire 1 T$ cout $end
+$var wire 1 U$ s $end
+$var wire 1 V$ y1 $end
+$var wire 1 W$ y2 $end
+$var wire 1 X$ y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[41] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 Y$ a $end
+$var wire 1 Z$ b $end
+$var wire 1 [$ cin $end
+$var wire 1 \$ cout $end
+$var wire 1 ]$ s $end
+$var wire 1 ^$ y1 $end
+$var wire 1 _$ y2 $end
+$var wire 1 `$ y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[42] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 a$ a $end
+$var wire 1 b$ b $end
+$var wire 1 c$ cin $end
+$var wire 1 d$ cout $end
+$var wire 1 e$ s $end
+$var wire 1 f$ y1 $end
+$var wire 1 g$ y2 $end
+$var wire 1 h$ y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[43] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 i$ a $end
+$var wire 1 j$ b $end
+$var wire 1 k$ cin $end
+$var wire 1 l$ cout $end
+$var wire 1 m$ s $end
+$var wire 1 n$ y1 $end
+$var wire 1 o$ y2 $end
+$var wire 1 p$ y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[44] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 q$ a $end
+$var wire 1 r$ b $end
+$var wire 1 s$ cin $end
+$var wire 1 t$ cout $end
+$var wire 1 u$ s $end
+$var wire 1 v$ y1 $end
+$var wire 1 w$ y2 $end
+$var wire 1 x$ y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[45] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 y$ a $end
+$var wire 1 z$ b $end
+$var wire 1 {$ cin $end
+$var wire 1 |$ cout $end
+$var wire 1 }$ s $end
+$var wire 1 ~$ y1 $end
+$var wire 1 !% y2 $end
+$var wire 1 "% y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[46] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 #% a $end
+$var wire 1 $% b $end
+$var wire 1 %% cin $end
+$var wire 1 &% cout $end
+$var wire 1 '% s $end
+$var wire 1 (% y1 $end
+$var wire 1 )% y2 $end
+$var wire 1 *% y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[47] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 +% a $end
+$var wire 1 ,% b $end
+$var wire 1 -% cin $end
+$var wire 1 .% cout $end
+$var wire 1 /% s $end
+$var wire 1 0% y1 $end
+$var wire 1 1% y2 $end
+$var wire 1 2% y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[48] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 3% a $end
+$var wire 1 4% b $end
+$var wire 1 5% cin $end
+$var wire 1 6% cout $end
+$var wire 1 7% s $end
+$var wire 1 8% y1 $end
+$var wire 1 9% y2 $end
+$var wire 1 :% y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[49] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 ;% a $end
+$var wire 1 <% b $end
+$var wire 1 =% cin $end
+$var wire 1 >% cout $end
+$var wire 1 ?% s $end
+$var wire 1 @% y1 $end
+$var wire 1 A% y2 $end
+$var wire 1 B% y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[50] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 C% a $end
+$var wire 1 D% b $end
+$var wire 1 E% cin $end
+$var wire 1 F% cout $end
+$var wire 1 G% s $end
+$var wire 1 H% y1 $end
+$var wire 1 I% y2 $end
+$var wire 1 J% y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[51] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 K% a $end
+$var wire 1 L% b $end
+$var wire 1 M% cin $end
+$var wire 1 N% cout $end
+$var wire 1 O% s $end
+$var wire 1 P% y1 $end
+$var wire 1 Q% y2 $end
+$var wire 1 R% y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[52] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 S% a $end
+$var wire 1 T% b $end
+$var wire 1 U% cin $end
+$var wire 1 V% cout $end
+$var wire 1 W% s $end
+$var wire 1 X% y1 $end
+$var wire 1 Y% y2 $end
+$var wire 1 Z% y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[53] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 [% a $end
+$var wire 1 \% b $end
+$var wire 1 ]% cin $end
+$var wire 1 ^% cout $end
+$var wire 1 _% s $end
+$var wire 1 `% y1 $end
+$var wire 1 a% y2 $end
+$var wire 1 b% y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[54] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 c% a $end
+$var wire 1 d% b $end
+$var wire 1 e% cin $end
+$var wire 1 f% cout $end
+$var wire 1 g% s $end
+$var wire 1 h% y1 $end
+$var wire 1 i% y2 $end
+$var wire 1 j% y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[55] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 k% a $end
+$var wire 1 l% b $end
+$var wire 1 m% cin $end
+$var wire 1 n% cout $end
+$var wire 1 o% s $end
+$var wire 1 p% y1 $end
+$var wire 1 q% y2 $end
+$var wire 1 r% y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[56] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 s% a $end
+$var wire 1 t% b $end
+$var wire 1 u% cin $end
+$var wire 1 v% cout $end
+$var wire 1 w% s $end
+$var wire 1 x% y1 $end
+$var wire 1 y% y2 $end
+$var wire 1 z% y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[57] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 {% a $end
+$var wire 1 |% b $end
+$var wire 1 }% cin $end
+$var wire 1 ~% cout $end
+$var wire 1 !& s $end
+$var wire 1 "& y1 $end
+$var wire 1 #& y2 $end
+$var wire 1 $& y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[58] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 %& a $end
+$var wire 1 && b $end
+$var wire 1 '& cin $end
+$var wire 1 (& cout $end
+$var wire 1 )& s $end
+$var wire 1 *& y1 $end
+$var wire 1 +& y2 $end
+$var wire 1 ,& y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[59] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 -& a $end
+$var wire 1 .& b $end
+$var wire 1 /& cin $end
+$var wire 1 0& cout $end
+$var wire 1 1& s $end
+$var wire 1 2& y1 $end
+$var wire 1 3& y2 $end
+$var wire 1 4& y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[60] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 5& a $end
+$var wire 1 6& b $end
+$var wire 1 7& cin $end
+$var wire 1 8& cout $end
+$var wire 1 9& s $end
+$var wire 1 :& y1 $end
+$var wire 1 ;& y2 $end
+$var wire 1 <& y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[61] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 =& a $end
+$var wire 1 >& b $end
+$var wire 1 ?& cin $end
+$var wire 1 @& cout $end
+$var wire 1 A& s $end
+$var wire 1 B& y1 $end
+$var wire 1 C& y2 $end
+$var wire 1 D& y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[62] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 E& a $end
+$var wire 1 F& b $end
+$var wire 1 G& cin $end
+$var wire 1 H& cout $end
+$var wire 1 I& s $end
+$var wire 1 J& y1 $end
+$var wire 1 K& y2 $end
+$var wire 1 L& y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_Add_Sub[63] $end
+$scope begin genblk4 $end
+$scope module FA $end
+$var wire 1 M& a $end
+$var wire 1 N& b $end
+$var wire 1 O& cin $end
+$var wire 1 P& cout $end
+$var wire 1 Q& s $end
+$var wire 1 R& y1 $end
+$var wire 1 S& y2 $end
+$var wire 1 T& y3 $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin generate_XOR_with_M[0] $end
+$upscope $end
+$scope begin generate_XOR_with_M[1] $end
+$upscope $end
+$scope begin generate_XOR_with_M[2] $end
+$upscope $end
+$scope begin generate_XOR_with_M[3] $end
+$upscope $end
+$scope begin generate_XOR_with_M[4] $end
+$upscope $end
+$scope begin generate_XOR_with_M[5] $end
+$upscope $end
+$scope begin generate_XOR_with_M[6] $end
+$upscope $end
+$scope begin generate_XOR_with_M[7] $end
+$upscope $end
+$scope begin generate_XOR_with_M[8] $end
+$upscope $end
+$scope begin generate_XOR_with_M[9] $end
+$upscope $end
+$scope begin generate_XOR_with_M[10] $end
+$upscope $end
+$scope begin generate_XOR_with_M[11] $end
+$upscope $end
+$scope begin generate_XOR_with_M[12] $end
+$upscope $end
+$scope begin generate_XOR_with_M[13] $end
+$upscope $end
+$scope begin generate_XOR_with_M[14] $end
+$upscope $end
+$scope begin generate_XOR_with_M[15] $end
+$upscope $end
+$scope begin generate_XOR_with_M[16] $end
+$upscope $end
+$scope begin generate_XOR_with_M[17] $end
+$upscope $end
+$scope begin generate_XOR_with_M[18] $end
+$upscope $end
+$scope begin generate_XOR_with_M[19] $end
+$upscope $end
+$scope begin generate_XOR_with_M[20] $end
+$upscope $end
+$scope begin generate_XOR_with_M[21] $end
+$upscope $end
+$scope begin generate_XOR_with_M[22] $end
+$upscope $end
+$scope begin generate_XOR_with_M[23] $end
+$upscope $end
+$scope begin generate_XOR_with_M[24] $end
+$upscope $end
+$scope begin generate_XOR_with_M[25] $end
+$upscope $end
+$scope begin generate_XOR_with_M[26] $end
+$upscope $end
+$scope begin generate_XOR_with_M[27] $end
+$upscope $end
+$scope begin generate_XOR_with_M[28] $end
+$upscope $end
+$scope begin generate_XOR_with_M[29] $end
+$upscope $end
+$scope begin generate_XOR_with_M[30] $end
+$upscope $end
+$scope begin generate_XOR_with_M[31] $end
+$upscope $end
+$scope begin generate_XOR_with_M[32] $end
+$upscope $end
+$scope begin generate_XOR_with_M[33] $end
+$upscope $end
+$scope begin generate_XOR_with_M[34] $end
+$upscope $end
+$scope begin generate_XOR_with_M[35] $end
+$upscope $end
+$scope begin generate_XOR_with_M[36] $end
+$upscope $end
+$scope begin generate_XOR_with_M[37] $end
+$upscope $end
+$scope begin generate_XOR_with_M[38] $end
+$upscope $end
+$scope begin generate_XOR_with_M[39] $end
+$upscope $end
+$scope begin generate_XOR_with_M[40] $end
+$upscope $end
+$scope begin generate_XOR_with_M[41] $end
+$upscope $end
+$scope begin generate_XOR_with_M[42] $end
+$upscope $end
+$scope begin generate_XOR_with_M[43] $end
+$upscope $end
+$scope begin generate_XOR_with_M[44] $end
+$upscope $end
+$scope begin generate_XOR_with_M[45] $end
+$upscope $end
+$scope begin generate_XOR_with_M[46] $end
+$upscope $end
+$scope begin generate_XOR_with_M[47] $end
+$upscope $end
+$scope begin generate_XOR_with_M[48] $end
+$upscope $end
+$scope begin generate_XOR_with_M[49] $end
+$upscope $end
+$scope begin generate_XOR_with_M[50] $end
+$upscope $end
+$scope begin generate_XOR_with_M[51] $end
+$upscope $end
+$scope begin generate_XOR_with_M[52] $end
+$upscope $end
+$scope begin generate_XOR_with_M[53] $end
+$upscope $end
+$scope begin generate_XOR_with_M[54] $end
+$upscope $end
+$scope begin generate_XOR_with_M[55] $end
+$upscope $end
+$scope begin generate_XOR_with_M[56] $end
+$upscope $end
+$scope begin generate_XOR_with_M[57] $end
+$upscope $end
+$scope begin generate_XOR_with_M[58] $end
+$upscope $end
+$scope begin generate_XOR_with_M[59] $end
+$upscope $end
+$scope begin generate_XOR_with_M[60] $end
+$upscope $end
+$scope begin generate_XOR_with_M[61] $end
+$upscope $end
+$scope begin generate_XOR_with_M[62] $end
+$upscope $end
+$scope begin generate_XOR_with_M[63] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0T&
+0S&
+0R&
+0Q&
+0P&
+0O&
+0N&
+0M&
+0L&
+0K&
+0J&
+0I&
+0H&
+0G&
+0F&
+0E&
+0D&
+0C&
+0B&
+0A&
+0@&
+0?&
+0>&
+0=&
+0<&
+0;&
+0:&
+09&
+08&
+07&
+06&
+05&
+04&
+03&
+02&
+01&
+00&
+0/&
+0.&
+0-&
+0,&
+0+&
+0*&
+0)&
+0(&
+0'&
+0&&
+0%&
+0$&
+0#&
+0"&
+0!&
+0~%
+0}%
+0|%
+0{%
+0z%
+0y%
+0x%
+0w%
+0v%
+0u%
+0t%
+0s%
+0r%
+0q%
+0p%
+0o%
+0n%
+0m%
+0l%
+0k%
+0j%
+0i%
+0h%
+0g%
+0f%
+0e%
+0d%
+0c%
+0b%
+0a%
+0`%
+0_%
+0^%
+0]%
+0\%
+0[%
+0Z%
+0Y%
+0X%
+0W%
+0V%
+0U%
+0T%
+0S%
+0R%
+0Q%
+0P%
+0O%
+0N%
+0M%
+0L%
+0K%
+0J%
+0I%
+0H%
+0G%
+0F%
+0E%
+0D%
+0C%
+0B%
+0A%
+0@%
+0?%
+0>%
+0=%
+0<%
+0;%
+0:%
+09%
+08%
+07%
+06%
+05%
+04%
+03%
+02%
+01%
+00%
+0/%
+0.%
+0-%
+0,%
+0+%
+0*%
+0)%
+0(%
+0'%
+0&%
+0%%
+0$%
+0#%
+0"%
+0!%
+0~$
+0}$
+0|$
+0{$
+0z$
+0y$
+0x$
+0w$
+0v$
+0u$
+0t$
+0s$
+0r$
+0q$
+0p$
+0o$
+0n$
+0m$
+0l$
+0k$
+0j$
+0i$
+0h$
+0g$
+0f$
+0e$
+0d$
+0c$
+0b$
+0a$
+0`$
+0_$
+0^$
+0]$
+0\$
+0[$
+0Z$
+0Y$
+0X$
+0W$
+0V$
+0U$
+0T$
+0S$
+0R$
+0Q$
+0P$
+0O$
+0N$
+0M$
+0L$
+0K$
+0J$
+0I$
+0H$
+0G$
+0F$
+0E$
+0D$
+0C$
+0B$
+0A$
+0@$
+0?$
+0>$
+0=$
+0<$
+0;$
+0:$
+09$
+08$
+07$
+06$
+05$
+04$
+03$
+02$
+01$
+00$
+0/$
+0.$
+0-$
+0,$
+0+$
+0*$
+0)$
+0($
+0'$
+0&$
+0%$
+0$$
+0#$
+0"$
+0!$
+0~#
+0}#
+0|#
+0{#
+0z#
+0y#
+0x#
+0w#
+0v#
+0u#
+0t#
+0s#
+0r#
+0q#
+0p#
+0o#
+0n#
+0m#
+0l#
+0k#
+0j#
+0i#
+0h#
+0g#
+0f#
+0e#
+0d#
+0c#
+0b#
+0a#
+0`#
+0_#
+0^#
+0]#
+0\#
+0[#
+0Z#
+0Y#
+0X#
+0W#
+0V#
+0U#
+0T#
+0S#
+0R#
+0Q#
+0P#
+0O#
+0N#
+0M#
+0L#
+0K#
+0J#
+0I#
+0H#
+0G#
+0F#
+0E#
+0D#
+0C#
+0B#
+0A#
+0@#
+0?#
+0>#
+0=#
+0<#
+0;#
+0:#
+09#
+08#
+07#
+06#
+05#
+04#
+03#
+02#
+01#
+00#
+0/#
+0.#
+0-#
+0,#
+0+#
+0*#
+0)#
+0(#
+0'#
+0&#
+0%#
+0$#
+0##
+0"#
+0!#
+0~"
+0}"
+0|"
+0{"
+0z"
+0y"
+0x"
+0w"
+0v"
+0u"
+0t"
+0s"
+0r"
+0q"
+0p"
+0o"
+0n"
+0m"
+0l"
+0k"
+0j"
+0i"
+0h"
+0g"
+0f"
+0e"
+0d"
+0c"
+0b"
+0a"
+0`"
+0_"
+0^"
+0]"
+0\"
+0["
+0Z"
+0Y"
+0X"
+0W"
+0V"
+0U"
+0T"
+0S"
+0R"
+0Q"
+0P"
+0O"
+0N"
+0M"
+0L"
+0K"
+0J"
+0I"
+0H"
+0G"
+0F"
+0E"
+0D"
+0C"
+0B"
+0A"
+0@"
+0?"
+0>"
+0="
+0<"
+0;"
+0:"
+09"
+08"
+07"
+06"
+05"
+04"
+03"
+02"
+01"
+00"
+0/"
+0."
+0-"
+0,"
+0+"
+0*"
+0)"
+0("
+0'"
+0&"
+0%"
+0$"
+0#"
+0""
+0!"
+0~
+0}
+0|
+0{
+0z
+0y
+0x
+0w
+0v
+0u
+0t
+0s
+0r
+0q
+0p
+0o
+0n
+0m
+0l
+0k
+0j
+0i
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+1H
+1G
+0F
+0E
+0D
+1C
+0B
+0A
+0@
+1?
+0>
+1=
+0<
+0;
+0:
+19
+08
+17
+16
+15
+14
+13
+02
+11
+00
+0/
+1.
+1-
+1,
+b11 +
+b1011 *
+b11 )
+b1110 (
+b11 '
+b1011 &
+b11 %
+b1011 $
+0#
+b1110 "
+0!
+$end
+#10
+1!
+1P&
+1T&
+1O&
+1H&
+1L&
+1G&
+1@&
+1D&
+1?&
+18&
+1<&
+17&
+10&
+14&
+1/&
+1(&
+1,&
+1'&
+1~%
+1$&
+1}%
+1v%
+1z%
+1u%
+1n%
+1r%
+1m%
+1f%
+1j%
+1e%
+1^%
+1b%
+1]%
+1V%
+1Z%
+1U%
+1N%
+1R%
+1M%
+1F%
+1J%
+1E%
+1>%
+1B%
+1=%
+16%
+1:%
+15%
+1.%
+12%
+1-%
+1&%
+1*%
+1%%
+1|$
+1"%
+1{$
+1t$
+1x$
+1s$
+1l$
+1p$
+1k$
+1d$
+1h$
+1c$
+1\$
+1`$
+1[$
+1T$
+1X$
+1S$
+1L$
+1P$
+1K$
+1D$
+1H$
+1C$
+1<$
+1@$
+1;$
+14$
+18$
+13$
+1,$
+10$
+1+$
+1$$
+1($
+1#$
+1z#
+1~#
+1y#
+1r#
+1v#
+1q#
+1j#
+1n#
+1i#
+1b#
+1f#
+1a#
+1Z#
+1^#
+1Y#
+1R#
+1V#
+1Q#
+1J#
+1N#
+1I#
+1B#
+1F#
+1A#
+1:#
+1>#
+19#
+12#
+16#
+11#
+1*#
+1.#
+1)#
+1"#
+1&#
+1!#
+1x"
+1|"
+1w"
+1p"
+1t"
+1o"
+1h"
+1l"
+1g"
+1`"
+1d"
+1_"
+1X"
+1\"
+1W"
+1P"
+1T"
+1O"
+1H"
+1L"
+1G"
+1@"
+1D"
+1?"
+18"
+1<"
+17"
+10"
+14"
+1/"
+1("
+1,"
+1'"
+1~
+1$"
+1}
+1v
+1z
+1u
+1n
+1r
+1m
+1f
+1j
+1e
+1^
+1b
+1]
+1V
+1Z
+1U
+1N
+1R
+1M
+1F
+0G
+1J
+1E
+15
+1=
+1>
+12
+1.
+07
+1:
+b1111111111111111111111111111111111111111111111111111111111111111 +
+16
+0_
+0?
+1B
+0O
+0W
+0g
+0o
+0w
+0!"
+0)"
+01"
+09"
+0A"
+0I"
+0Q"
+0Y"
+0a"
+0i"
+0q"
+0y"
+0##
+0+#
+03#
+0;#
+0C#
+0K#
+0S#
+0[#
+0c#
+0k#
+0s#
+0{#
+0%$
+0-$
+05$
+0=$
+0E$
+0M$
+0U$
+0]$
+0e$
+0m$
+0u$
+0}$
+0'%
+0/%
+07%
+0?%
+0G%
+0O%
+0W%
+0_%
+0g%
+0o%
+0w%
+0!&
+0)&
+01&
+09&
+0A&
+0I&
+0Q&
+10
+01
+18
+09
+1`
+1@
+1P
+1X
+1h
+1p
+1x
+1""
+1*"
+12"
+1:"
+1B"
+1J"
+1R"
+1Z"
+1b"
+1j"
+1r"
+1z"
+1$#
+1,#
+14#
+1<#
+1D#
+1L#
+1T#
+1\#
+1d#
+1l#
+1t#
+1|#
+1&$
+1.$
+16$
+1>$
+1F$
+1N$
+1V$
+1^$
+1f$
+1n$
+1v$
+1~$
+1(%
+10%
+18%
+1@%
+1H%
+1P%
+1X%
+1`%
+1h%
+1p%
+1x%
+1"&
+1*&
+12&
+1:&
+1B&
+1J&
+1R&
+0,
+03
+0C
+1[
+1<
+1D
+1L
+1T
+1d
+1l
+1t
+1|
+1&"
+1."
+16"
+1>"
+1F"
+1N"
+1V"
+1^"
+1f"
+1n"
+1v"
+1~"
+1(#
+10#
+18#
+1@#
+1H#
+1P#
+1X#
+1`#
+1h#
+1p#
+1x#
+1"$
+1*$
+12$
+1:$
+1B$
+1J$
+1R$
+1Z$
+1b$
+1j$
+1r$
+1z$
+1$%
+1,%
+14%
+1<%
+1D%
+1L%
+1T%
+1\%
+1d%
+1l%
+1t%
+1|%
+1&&
+1.&
+16&
+1>&
+1F&
+1N&
+b1000000 *
+b0 "
+b0 (
+0/
+b1111111111111111111111111111111111111111111111111111111110111111 )
+1#
+b1000000 %
+b1000000 '
+b1000000 $
+b1000000 &
+#20
